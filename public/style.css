@@ -1,0 +1,49 @@
+body{
+    background-image: url('/background.jpeg');
+}
+nav{
+    background-color: #563d7c;
+    color: black;
+    padding: 30px 60px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 8px;
+}
+
+nav li a:hover{
+    color: yellowgreen;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 8px;
+}
+
+.avatar-ctn{
+    background-color: orange;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 20px 15px;
+    margin-top: -50px;
+    background-color: white;
+}
